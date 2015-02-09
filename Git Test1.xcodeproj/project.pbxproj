@@ -14,6 +14,7 @@
 		BE0463241A89561500595E8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0463231A89561500595E8A /* Images.xcassets */; };
 		BE0463271A89561500595E8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE0463251A89561500595E8A /* LaunchScreen.xib */; };
 		BE0463331A89561500595E8A /* Git_Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0463321A89561500595E8A /* Git_Test1Tests.m */; };
+		BE04633E1A895ADE00595E8A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BE04633D1A895ADE00595E8A /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BE04632C1A89561500595E8A /* Git Test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git Test1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0463311A89561500595E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE0463321A89561500595E8A /* Git_Test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_Test1Tests.m; sourceTree = "<group>"; };
+		BE04633C1A895ADE00595E8A /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		BE04633D1A895ADE00595E8A /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		BE04630A1A89561500595E8A = {
 			isa = PBXGroup;
 			children = (
+				BE04633C1A895ADE00595E8A /* Test.h */,
+				BE04633D1A895ADE00595E8A /* Test.m */,
 				BE0463151A89561500595E8A /* Git Test1 */,
 				BE04632F1A89561500595E8A /* Git Test1Tests */,
 				BE0463141A89561500595E8A /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE04631F1A89561500595E8A /* ViewController.m in Sources */,
+				BE04633E1A895ADE00595E8A /* Test.m in Sources */,
 				BE04631C1A89561500595E8A /* AppDelegate.m in Sources */,
 				BE0463191A89561500595E8A /* main.m in Sources */,
 			);
